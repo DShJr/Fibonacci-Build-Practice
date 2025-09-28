@@ -225,9 +225,6 @@ cmake_minimum_required(VERSION 3.10)
 # Название проекта
 project(FibonacciProject)
 
-# Добавление исполняемого файла
-#add_executable(fibonacci_app main.cpp)
-
 # Проверка, какой режим сборки выбран
 if(CMAKE_BUILD_TYPE STREQUAL "Debug")
     # Если режим - Debug, создать файл с суффиксом _debug
